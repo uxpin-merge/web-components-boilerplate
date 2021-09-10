@@ -16,14 +16,16 @@ function WcList(props) {
 WcList.propTypes = {
     children: PropTypes.node,
     activatable: PropTypes.bool,
-    multi: PropTypes.bool
+    multi: PropTypes.bool,
+    onSelected: PropTypes.func
 };
 /* eslint-enable sort-keys */
 
 WcList.defaultProps = {
     children: "Click Me",
     activatable: false,
-    multi: false
+    multi: false,
+    onSelected: ()=>{alert("hello")}
 };
 
 export { WcList as default };

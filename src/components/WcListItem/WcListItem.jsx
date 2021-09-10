@@ -24,7 +24,8 @@ WcListItem.propTypes = {
     twoline: PropTypes.bool,
     secondary: PropTypes.string,
     disabled: PropTypes.bool,
-    activated: PropTypes.bool
+    activated: PropTypes.bool,
+
 };
 /* eslint-enable sort-keys */
 
@@ -32,7 +33,7 @@ WcListItem.defaultProps = {
     children: "List Item",
     twoline: false,
     disabled: false,
-    activated: false
+    activated: false,
 };
 
 export { WcListItem as default };
