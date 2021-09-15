@@ -25,7 +25,7 @@ WcList.defaultProps = {
     children: "Click Me",
     activatable: false,
     multi: false,
-    onSelected: ()=>{alert("hello")}
+    onSelected: ()=>(null),
 };
 
 export { WcList as default };

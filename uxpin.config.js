@@ -9,6 +9,7 @@ module.exports = {
           'src/components/WcDrawer/WcDrawer.jsx',
           'src/components/WcList/WcList.jsx',
           'src/components/WcListItem/WcListItem.jsx',
+          'src/components/WcDropdown/WcDropdown.jsx',
         ],
       },
     ],
