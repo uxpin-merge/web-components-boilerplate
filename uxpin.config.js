@@ -3,13 +3,9 @@ module.exports = {
   components: {
     categories: [
       {
-        name: 'Web Components',
+        name: 'Scale',
         include: [
-          'src/components/WcButton/WcButton.jsx',
-          'src/components/WcDrawer/WcDrawer.jsx',
-          'src/components/WcList/WcList.jsx',
-          'src/components/WcListItem/WcListItem.jsx',
-          'src/components/WcDropdown/WcDropdown.jsx',
+          'src/components/ScaleButton/ScaleButton.jsx',
         ],
       },
     ],

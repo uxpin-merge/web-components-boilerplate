@@ -1,9 +1,9 @@
 import React from 'react';
-import WcButton from '../WcButton';
+import ScaleButton from '../ScaleButton';
 
 export default (
-  <WcButton
+  <ScaleButton
     uxpId="button">
     Click me!!
-  </WcButton>
+  </ScaleButton>
 );
